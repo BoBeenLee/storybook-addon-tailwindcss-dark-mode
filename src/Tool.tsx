@@ -5,7 +5,14 @@ import { TOOL_ID } from "./constants";
 import { storage as localStorage } from "./localStorage";
 
 export const Tool = () => {
-  const [{ darkMode = localStorage().getDarkMode() }, updateGlobals] = useGlobals();
+  const [{ darkMode = localStorage().getDarkMode() }, updateGlobals] =
+    useGlobals();
+
+  useEffect(() => {
+    updateGlobals({
+      darkMode,
+    });
+  }, []);
 
   const toggleDarkMode = useCallback(() => {
     updateGlobals({
