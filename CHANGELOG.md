@@ -1,3 +1,16 @@
+# v0.0.4 (Thu Jun 30 2022)
+
+#### ⚠️ Pushed to `main`
+
+- chore: update patch version ([@BoBeenLee](https://github.com/BoBeenLee))
+- feat: update readme, query selector location ([@BoBeenLee](https://github.com/BoBeenLee))
+
+#### Authors: 1
+
+- BoBeenLee ([@BoBeenLee](https://github.com/BoBeenLee))
+
+---
+
 # v0.0.3 (Thu Jun 30 2022)
 
 #### ⚠️ Pushed to `main`
