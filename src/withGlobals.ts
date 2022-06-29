@@ -9,7 +9,7 @@ export const withGlobals: DecoratorFunction = (StoryFn, context) => {
   useEffect(() => {
     const selectorId = isInDocs
       ? `#anchor--${context.id} .docs-story`
-      : `#root`;
+      : `body`;
     if (isInDocs) {
       return;
     }
