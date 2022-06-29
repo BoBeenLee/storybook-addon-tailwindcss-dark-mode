@@ -1,3 +1,15 @@
+# v0.0.8 (Thu Jun 30 2022)
+
+#### ⚠️ Pushed to `main`
+
+- fix: fixed not working initial state ([@BoBeenLee](https://github.com/BoBeenLee))
+
+#### Authors: 1
+
+- BoBeenLee ([@BoBeenLee](https://github.com/BoBeenLee))
+
+---
+
 # v0.0.7 (Thu Jun 30 2022)
 
 #### ⚠️ Pushed to `main`
