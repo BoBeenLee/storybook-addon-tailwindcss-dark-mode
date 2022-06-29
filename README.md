@@ -1,7 +1,7 @@
 # Storybook Addon Tailwind CSS Dark Mode
 
-Addon for storybook which toggle dark mode using tailwind css
-📃 This helps and simplifies development of dark mode.
+Addon for storybook which toggle dark mode using tailwind css.
+This helps and simplifies development of dark mode.
 
 ## Getting Started
 
