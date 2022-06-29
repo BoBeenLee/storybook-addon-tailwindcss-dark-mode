@@ -1,23 +1,23 @@
-# storybook-tailwindcss-dark-mode
+# storybook-addon-tailwindcss-dark-mode
 
 ## Installation
 
 Install the following npm module:
 
 ```sh
-npm i --save-dev storybook-tailwindcss-dark-mode
+npm i --save-dev storybook-addon-tailwindcss-dark-mode
 ```
 
 or with yarn:
 
 ```sh
-yarn add -D storybook-tailwindcss-dark-mode
+yarn add -D storybook-addon-tailwindcss-dark-mode
 ```
 
 Then, add following content to `.storybook/main.js`
 
 ```js
 module.exports = {
-  addons: ["storybook-tailwindcss-dark-mode"],
+  addons: ["storybook-addon-tailwindcss-dark-mode"],
 };
 ```
