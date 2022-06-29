@@ -1,15 +1,15 @@
 {
-  "name": "storybook-addon-kit",
+  "name": "storybook-addon-tailwindcss-dark-mode",
   "version": "0.0.0",
-  "description": "everything you need to build a Storybook addon",
+  "description": "tailwindcss dark mode of the addon",
   "keywords": [
-    "storybook-addons"
+    "tailwind", "tailwindcss", "dark-mode", "storybook", "storybook-addons"
   ],
   "repository": {
     "type": "git",
-    "url": "https://github.com/storybookjs/storybook-addon-kit"
+    "url": "BoBeenLee"
   },
-  "author": "package-author",
+  "author": "BoBeenLee <globaldev@naver.com>",
   "license": "MIT",
   "main": "dist/cjs/index.js",
   "module": "dist/esm/index.js",
@@ -21,7 +21,6 @@
     "*.d.ts"
   ],
   "scripts": {
-    "postinstall": "node scripts/welcome.js",
     "clean": "rimraf ./dist",
     "buildBabel": "concurrently \"yarn buildBabel:cjs\" \"yarn buildBabel:esm\"",
     "buildBabel:cjs": "babel ./src -d ./dist/cjs --extensions \".js,.jsx,.ts,.tsx\"",
@@ -80,9 +79,9 @@
     "access": "public"
   },
   "storybook": {
-    "displayName": "Addon Kit",
+    "displayName": "tailwindcss-dark-mode",
     "supportedFrameworks": [
-      "supported-frameworks"
+      "react", "html"
     ],
     "icon": "https://user-images.githubusercontent.com/321738/63501763-88dbf600-c4cc-11e9-96cd-94adadc2fd72.png"
   }
