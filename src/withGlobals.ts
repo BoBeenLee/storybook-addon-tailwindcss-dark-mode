@@ -1,8 +1,9 @@
 import type { DecoratorFunction } from "@storybook/addons";
 import { useEffect, useGlobals } from "@storybook/addons";
+import { getInitialDarkMode } from "./darkMode";
 
 export const withGlobals: DecoratorFunction = (StoryFn, context) => {
-  const [{ darkMode }] = useGlobals();
+  const [{ darkMode = getInitialDarkMode() }] = useGlobals();
   // Is the addon being used in the docs panel
   const isInDocs = context.viewMode === "docs";
 

@@ -3,9 +3,10 @@ import { useGlobals } from "@storybook/api";
 import { Icons, IconButton } from "@storybook/components";
 import { TOOL_ID } from "./constants";
 import { storage as localStorage } from "./localStorage";
+import { getInitialDarkMode } from "./darkMode";
 
 export const Tool = () => {
-  const [{ darkMode = localStorage().getDarkMode() }, updateGlobals] =
+  const [{ darkMode = getInitialDarkMode() }, updateGlobals] =
     useGlobals();
 
   useEffect(() => {
