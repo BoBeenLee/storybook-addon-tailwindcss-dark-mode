@@ -1,7 +1,7 @@
 {
   "name": "storybook-addon-tailwindcss-dark-mode",
   "version": "0.0.4",
-  "description": "toggle dark mode stories using tailwind",
+  "description": "toggle dark mode storybook addon using tailwind",
   "keywords": [
     "tailwind",
     "tailwindcss",
