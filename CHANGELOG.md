@@ -1,3 +1,17 @@
+# v0.0.9 (Tue Aug 16 2022)
+
+#### ⚠️ Pushed to `main`
+
+- fix: remove lodash libs ([@BoBeenLee](https://github.com/BoBeenLee))
+- Update README.md ([@BoBeenLee](https://github.com/BoBeenLee))
+- chore: update readme ([@BoBeenLee](https://github.com/BoBeenLee))
+
+#### Authors: 1
+
+- BoBeenLee ([@BoBeenLee](https://github.com/BoBeenLee))
+
+---
+
 # v0.0.8 (Thu Jun 30 2022)
 
 #### ⚠️ Pushed to `main`
