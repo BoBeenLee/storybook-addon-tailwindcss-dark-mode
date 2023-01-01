@@ -2,6 +2,7 @@
   "name": "storybook-addon-tailwindcss-dark-mode",
   "version": "0.0.9",
   "description": "toggle dark mode storybook addon using tailwind",
+  "homepage": "https://github.com/BoBeenLee/storybook-addon-tailwindcss-dark-mode",
   "keywords": [
     "tailwind",
     "tailwindcss",
@@ -11,7 +12,7 @@
   ],
   "repository": {
     "type": "git",
-    "url": "BoBeenLee"
+    "url": "https://github.com/BoBeenLee/storybook-addon-tailwindcss-dark-mode"
   },
   "author": "BoBeenLee <globaldev@naver.com>",
   "license": "MIT",
